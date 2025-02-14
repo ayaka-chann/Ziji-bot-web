@@ -78,7 +78,12 @@ Before you embark on this musical journey, ensure you have the following:
    NEXTAUTH_SECRET=your_nextauth_secret
    ```
 
-4. Run the application:
+4. Set the callback URL in the Discord Developer Portal:
+
+   Go to [Discord Developer Portal](https://discord.com/developers), select your application, and
+   add `your_nextauth_url/api/auth/callback/discord` to the Redirects section.
+
+5. Run the application:
 
    ```bash
    npm run dev
@@ -89,7 +94,7 @@ Before you embark on this musical journey, ensure you have the following:
    npm run start
    ```
 
-5. Open your browser and go to `http://localhost:3000` to start using the application.
+6. Open your browser and go to `http://localhost:3000` to start using the application.
 
 ## Contributing
 
